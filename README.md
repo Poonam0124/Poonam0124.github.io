@@ -1,45 +1,73 @@
-# .NET Developer Portfolio Website
+# Poonam Mandavkar — Developer Portfolio
 
-A responsive, one-page static portfolio built with HTML, CSS, and vanilla JavaScript. It has no build step and can be hosted free on GitHub Pages.
+A responsive, single-page professional portfolio for Poonam Mandavkar, Senior .NET Developer.
 
-## Files
-- `index.html` — page content and SEO metadata
-- `styles.css` — responsive design and visual styles
-- `script.js` — mobile navigation and current year
+**Live website:** [https://poonam0124.github.io/](https://poonam0124.github.io/)
 
-## Before publishing
-Search the files for these placeholders and replace them:
-- `Your Name`
-- `YOUR_EMAIL@example.com`
-- `YOUR-LINKEDIN-USERNAME`
-- `YOUR-GITHUB-USERNAME`
-- `https://github.com/YOUR-GITHUB-USERNAME/Legacy2Modern-AI`
+## About
 
-Update the project repository URL to your real Legacy2Modern-AI repository. If you don't want to publish that repository yet, remove the GitHub link or point it to a README explaining the project.
+This portfolio presents my technical skills, professional background, personal projects, and contact information. My primary focus is C#/.NET development, enterprise applications, database development, and system integrations.
 
-Review the experience and project descriptions carefully before publishing. The featured AI project is intentionally described as a personal project in progress, not as a production product.
+- 8+ years of overall IT experience
+- 5+ years working with C#/.NET
+- Experience with ASP.NET WebForms, ASP.NET MVC, Web API, SQL Server, and enterprise integrations
+- Personal project exploring AI-assisted legacy application modernization
 
-## Preview locally
-1. Extract the ZIP.
-2. Open the `dotnet-portfolio-website` folder.
-3. Double-click `index.html` to open it in a browser.
-4. Check the page at desktop and mobile widths.
-5. Click all navigation and contact links.
+## Technologies
 
-You can also open the folder in Visual Studio Code and use a local preview extension, but no extension is required.
+- **HTML5** — page structure and content
+- **CSS3** — responsive layout and styling
+- **JavaScript** — navigation and lightweight interactions
+- **GitHub Pages** — static website hosting
 
-## Deploy free with GitHub Pages
-1. Sign in to GitHub and create a new **public** repository named `your-github-username.github.io` (replace the username with your actual GitHub username). Do not initialize it with a README if you plan to upload these files directly.
-2. Extract this ZIP on your computer.
-3. Open the new repository on GitHub and choose **Add file → Upload files**.
-4. Upload `index.html`, `styles.css`, `script.js`, and `README.md` from inside the extracted folder. Upload the files themselves, not the enclosing ZIP.
-5. Enter a commit message such as `Add portfolio website` and click **Commit changes**.
-6. Open the repository's **Settings → Pages**. Under Build and deployment, choose **Deploy from a branch**, select `main` and `/(root)`, then save. (For a user-site repository named exactly `your-github-username.github.io`, GitHub Pages is commonly enabled automatically or the Pages settings may already show the deployment.)
-7. Wait a few minutes, refresh Settings → Pages, and open the published URL shown there. It will normally be `https://your-github-username.github.io/`.
-8. If changes do not appear immediately, wait a few minutes and hard-refresh the browser.
+No backend server, database, package manager, or build process is required.
 
-## Important
-- Do not upload secrets, API keys, passwords, private work files, client data, or employer source code.
-- Only publish details and screenshots you have permission to share.
-- GitHub Pages hosts static files only. This site does not need a server or database.
-- GitHub's UI can change; use the URL shown in **Settings → Pages** as the source of truth.
+## Project structure
+
+```text
+.
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
+```
+
+- `index.html` — portfolio content and metadata
+- `styles.css` — styling, layout, and responsive design
+- `script.js` — mobile navigation and dynamic footer year
+- `README.md` — project documentation
+
+## Run locally
+
+1. Clone or download this repository.
+2. Open `index.html` in a browser.
+3. Resize the browser to check the responsive layout.
+4. Test the navigation and contact links.
+
+## Deployment
+
+This website is hosted using GitHub Pages.
+
+To publish updates:
+
+1. Commit the updated files to the repository's publishing branch.
+2. Open **Settings → Pages** in GitHub.
+3. Confirm the publishing source is configured for the correct branch and folder, usually `main` and `/(root)`.
+4. Wait for deployment to finish.
+5. Visit [poonam0124.github.io](https://poonam0124.github.io/).
+
+Official guide: [GitHub Pages publishing configuration](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+## Featured project: Legacy2Modern-AI
+
+Legacy2Modern-AI is a personal project exploring AI-assisted analysis of legacy applications and modernization planning.
+
+Its components include a legacy ASP.NET WebForms application on .NET Framework 4.8, a modern .NET Web API, and a React frontend. The development work includes structured analysis findings and experimentation with a provider-based AI workflow using a locally hosted Ollama model.
+
+The long-term direction is to support reusable analysis across legacy applications and surface insights into architecture, technical debt, risks, and modernization options.
+
+**Status:** Work in progress. The project is not presented as a completed or production-ready AI platform.
+
+## License
+
+Unless a separate license is added, this repository is intended for portfolio and demonstration purposes. No additional license is implied.
